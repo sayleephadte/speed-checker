@@ -1,0 +1,30 @@
+.sentence{
+  animation-name: show-sentence;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes show-sentence {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.sentence-on-change{
+  animation-name: show-sentence-change;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes show-sentence-change {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
